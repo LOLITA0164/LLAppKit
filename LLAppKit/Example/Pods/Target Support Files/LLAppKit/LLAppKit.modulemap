@@ -1,0 +1,6 @@
+framework module LLAppKit {
+  umbrella header "LLAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
