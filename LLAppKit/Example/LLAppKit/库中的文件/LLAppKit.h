@@ -12,6 +12,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LLUserInfo.h"
 
 @interface LLAppKit : NSObject
 /// settings:设置

@@ -11,13 +11,15 @@
 
 /*
 AppKit:
+       user:用户信息
        settings:设置
                     color/……
        app:应用数据
        apis:接口
        notifications:通知
-       user:用户信息
        keys:偏好keys
+ 
+ 存储型=>属性、非存储型=>方法
 */
 
 #import "LLAppKit.h"        // 应用数据入口

@@ -7,7 +7,7 @@
 //
 
 /*
- 用户偏好设置字段
+ 用户偏好设置字段，通过【分类】，为该类添加偏好字段
 */
 
 #import <Foundation/Foundation.h>

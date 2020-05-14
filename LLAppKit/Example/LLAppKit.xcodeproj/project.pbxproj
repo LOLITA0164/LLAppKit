@@ -27,6 +27,7 @@
 		C75CE8FE246BDFF900FE53CA /* LLNotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE8FD246BDFF900FE53CA /* LLNotificationNames.m */; };
 		C75CE901246BE20200FE53CA /* LLUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE900246BE20200FE53CA /* LLUserInfo.m */; };
 		C75CE904246BE2A800FE53CA /* LLUserDefaultKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE903246BE2A800FE53CA /* LLUserDefaultKeys.m */; };
+		C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */; };
 		C794F37E246B824000E89A27 /* LLAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F37D246B824000E89A27 /* LLAppKit.m */; };
 		C794F381246B82D800E89A27 /* LLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F380246B82D800E89A27 /* LLSettings.m */; };
 		C794F389246BBC7B00E89A27 /* LLColor+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F388246BBC7B00E89A27 /* LLColor+TEST.m */; };
@@ -87,6 +88,8 @@
 		C75CE900246BE20200FE53CA /* LLUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLUserInfo.m; sourceTree = "<group>"; };
 		C75CE902246BE2A800FE53CA /* LLUserDefaultKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLUserDefaultKeys.h; sourceTree = "<group>"; };
 		C75CE903246BE2A800FE53CA /* LLUserDefaultKeys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLUserDefaultKeys.m; sourceTree = "<group>"; };
+		C75CE908246CD21800FE53CA /* LLUserInfo+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLUserInfo+TEST.h"; sourceTree = "<group>"; };
+		C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLUserInfo+TEST.m"; sourceTree = "<group>"; };
 		C794F37C246B824000E89A27 /* LLAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppKit.h; sourceTree = "<group>"; };
 		C794F37D246B824000E89A27 /* LLAppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppKit.m; sourceTree = "<group>"; };
 		C794F37F246B82D800E89A27 /* LLSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSettings.h; sourceTree = "<group>"; };
@@ -175,8 +178,8 @@
 		6003F593195388D20070C39A /* Example for LLAppKit */ = {
 			isa = PBXGroup;
 			children = (
-				C794F383246BBB9400E89A27 /* 项目中的扩展 */,
-				C794F378246B804800E89A27 /* 库中使用的文件 */,
+				C75CE90C246CEB1500FE53CA /* 项目中的分类 */,
+				C75CE90D246CEB1A00FE53CA /* 库中的文件 */,
 				6003F59C195388D20070C39A /* LLAppDelegate.h */,
 				6003F59D195388D20070C39A /* LLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -230,7 +233,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C794F378246B804800E89A27 /* 库中使用的文件 */ = {
+		C75CE90C246CEB1500FE53CA /* 项目中的分类 */ = {
+			isa = PBXGroup;
+			children = (
+				C75CE8F2246BD51100FE53CA /* TESTHeader.h */,
+				C75CE908246CD21800FE53CA /* LLUserInfo+TEST.h */,
+				C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */,
+				C794F387246BBC7B00E89A27 /* LLColor+TEST.h */,
+				C794F388246BBC7B00E89A27 /* LLColor+TEST.m */,
+				C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */,
+				C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */,
+			);
+			path = "项目中的分类";
+			sourceTree = "<group>";
+		};
+		C75CE90D246CEB1A00FE53CA /* 库中的文件 */ = {
 			isa = PBXGroup;
 			children = (
 				C75CE8EB246BD2D300FE53CA /* LLAppKitHeader.h */,
@@ -251,19 +268,7 @@
 				C75CE8FC246BDFF900FE53CA /* LLNotificationNames.h */,
 				C75CE8FD246BDFF900FE53CA /* LLNotificationNames.m */,
 			);
-			name = "库中使用的文件";
-			sourceTree = "<group>";
-		};
-		C794F383246BBB9400E89A27 /* 项目中的扩展 */ = {
-			isa = PBXGroup;
-			children = (
-				C75CE8F2246BD51100FE53CA /* TESTHeader.h */,
-				C794F387246BBC7B00E89A27 /* LLColor+TEST.h */,
-				C794F388246BBC7B00E89A27 /* LLColor+TEST.m */,
-				C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */,
-				C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */,
-			);
-			name = "项目中的扩展";
+			path = "库中的文件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				C75CE8FE246BDFF900FE53CA /* LLNotificationNames.m in Sources */,

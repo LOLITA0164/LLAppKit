@@ -12,7 +12,7 @@
 
 /// 首页接口
 -(NSString*)homeUrlString{
-    return @"12.34.15.66……";
+    return @"https://www.baidu.com/";
 }
 
 @end

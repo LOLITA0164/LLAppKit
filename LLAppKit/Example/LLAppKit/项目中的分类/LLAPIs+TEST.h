@@ -6,6 +6,10 @@
 //  Copyright © 2020 LOLITA0164. All rights reserved.
 //
 
+/*
+ 本例测试非存储型的情况
+ */
+
 #import "LLAPIs.h"
 
 @interface LLAPIs (TEST)

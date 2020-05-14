@@ -7,10 +7,22 @@
 //
 
 #import "LLAppKit+Config.h"
-
+#import <objc/runtime.h>
 
 #pragma mark - AppKit 层级入口
 @implementation LLAppKit (Config)
+/// 通过运行时将变量进行绑定
+-(LLUserInfo *)user{
+    LLUserInfo* u = objc_getAssociatedObject(self, _cmd);
+    if (u==nil) { // 如果不存在，则创建实例并进行绑定
+        u = LLUserInfo.new;
+        objc_setAssociatedObject(self, @selector(user), u, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    }
+    return u;
+}
+-(void)setUser:(LLUserInfo *)user{
+    objc_setAssociatedObject(self, @selector(user), user, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
 /// 应用设置
 -(LLSettings*)settings{
     return LLSettings.new;
@@ -26,10 +38,6 @@
 /// 通知信息
 -(LLNotificationNames *)notifications{
     return LLNotificationNames.new;
-}
-/// 用户信息
--(LLUserInfo*)user{
-    return LLUserInfo.new;
 }
 /// 偏好设置key
 -(LLUserDefaultKeys *)keys{

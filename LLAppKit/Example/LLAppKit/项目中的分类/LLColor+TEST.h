@@ -6,9 +6,11 @@
 //  Copyright © 2020 LOLITA0164. All rights reserved.
 //
 
-#import "LLSettings.h"
+/*
+ 本例测试多层级下的情况
+ */
 
-NS_ASSUME_NONNULL_BEGIN
+#import "LLSettings.h"
 
 @interface LLColor (TEST)
 
@@ -17,4 +19,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
