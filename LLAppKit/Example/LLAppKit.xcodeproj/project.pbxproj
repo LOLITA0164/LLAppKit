@@ -22,17 +22,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C75CE8F8246BD68300FE53CA /* LLAppKit+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE8F7246BD68300FE53CA /* LLAppKit+Config.m */; };
 		C75CE8FB246BDF0900FE53CA /* LLAPIs+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */; };
-		C75CE8FE246BDFF900FE53CA /* LLNotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE8FD246BDFF900FE53CA /* LLNotificationNames.m */; };
-		C75CE901246BE20200FE53CA /* LLUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE900246BE20200FE53CA /* LLUserInfo.m */; };
-		C75CE904246BE2A800FE53CA /* LLUserDefaultKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE903246BE2A800FE53CA /* LLUserDefaultKeys.m */; };
 		C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */; };
-		C794F37E246B824000E89A27 /* LLAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F37D246B824000E89A27 /* LLAppKit.m */; };
-		C794F381246B82D800E89A27 /* LLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F380246B82D800E89A27 /* LLSettings.m */; };
+		C75CE910246CF07B00FE53CA /* LLCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE90F246CF07B00FE53CA /* LLCodes.m */; };
+		C75CE913246CF0C600FE53CA /* LLAppKit+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */; };
 		C794F389246BBC7B00E89A27 /* LLColor+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F388246BBC7B00E89A27 /* LLColor+TEST.m */; };
-		C794F38C246BBD9700E89A27 /* LLAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F38B246BBD9700E89A27 /* LLAPIs.m */; };
-		C794F398246BCB9500E89A27 /* LLAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F397246BCB9500E89A27 /* LLAppInfo.m */; };
 		DF34D694A1A1B5917B52ACC5 /* Pods_LLAppKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1C9CA48AF7B9801EAFDBD /* Pods_LLAppKit_Tests.framework */; };
 		FC19AE3C175D83776D026EAE /* Pods_LLAppKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC0310549272D73404634B6 /* Pods_LLAppKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -76,30 +70,17 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AFACDA1AB5357F6EAF62221 /* Pods-LLAppKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Example/Pods-LLAppKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5C875075AAEFC7F6B1EABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C75CE8EB246BD2D300FE53CA /* LLAppKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppKitHeader.h; sourceTree = "<group>"; };
 		C75CE8F2246BD51100FE53CA /* TESTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTHeader.h; sourceTree = "<group>"; };
-		C75CE8F6246BD68300FE53CA /* LLAppKit+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLAppKit+Config.h"; sourceTree = "<group>"; };
-		C75CE8F7246BD68300FE53CA /* LLAppKit+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLAppKit+Config.m"; sourceTree = "<group>"; };
 		C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLAPIs+TEST.h"; sourceTree = "<group>"; };
 		C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLAPIs+TEST.m"; sourceTree = "<group>"; };
-		C75CE8FC246BDFF900FE53CA /* LLNotificationNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNotificationNames.h; sourceTree = "<group>"; };
-		C75CE8FD246BDFF900FE53CA /* LLNotificationNames.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNotificationNames.m; sourceTree = "<group>"; };
-		C75CE8FF246BE20200FE53CA /* LLUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLUserInfo.h; sourceTree = "<group>"; };
-		C75CE900246BE20200FE53CA /* LLUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLUserInfo.m; sourceTree = "<group>"; };
-		C75CE902246BE2A800FE53CA /* LLUserDefaultKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLUserDefaultKeys.h; sourceTree = "<group>"; };
-		C75CE903246BE2A800FE53CA /* LLUserDefaultKeys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLUserDefaultKeys.m; sourceTree = "<group>"; };
 		C75CE908246CD21800FE53CA /* LLUserInfo+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLUserInfo+TEST.h"; sourceTree = "<group>"; };
 		C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLUserInfo+TEST.m"; sourceTree = "<group>"; };
-		C794F37C246B824000E89A27 /* LLAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppKit.h; sourceTree = "<group>"; };
-		C794F37D246B824000E89A27 /* LLAppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppKit.m; sourceTree = "<group>"; };
-		C794F37F246B82D800E89A27 /* LLSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSettings.h; sourceTree = "<group>"; };
-		C794F380246B82D800E89A27 /* LLSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSettings.m; sourceTree = "<group>"; };
+		C75CE90E246CF07B00FE53CA /* LLCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCodes.h; sourceTree = "<group>"; };
+		C75CE90F246CF07B00FE53CA /* LLCodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCodes.m; sourceTree = "<group>"; };
+		C75CE911246CF0C600FE53CA /* LLAppKit+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLAppKit+TEST.h"; sourceTree = "<group>"; };
+		C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLAppKit+TEST.m"; sourceTree = "<group>"; };
 		C794F387246BBC7B00E89A27 /* LLColor+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLColor+TEST.h"; sourceTree = "<group>"; };
 		C794F388246BBC7B00E89A27 /* LLColor+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLColor+TEST.m"; sourceTree = "<group>"; };
-		C794F38A246BBD9700E89A27 /* LLAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAPIs.h; sourceTree = "<group>"; };
-		C794F38B246BBD9700E89A27 /* LLAPIs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAPIs.m; sourceTree = "<group>"; };
-		C794F396246BCB9500E89A27 /* LLAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppInfo.h; sourceTree = "<group>"; };
-		C794F397246BCB9500E89A27 /* LLAppInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppInfo.m; sourceTree = "<group>"; };
 		D9D7F57D5EE167779682B470 /* Pods-LLAppKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Tests/Pods-LLAppKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC61778212BA91995C63D23B /* Pods-LLAppKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Example/Pods-LLAppKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,6 +224,10 @@
 				C794F388246BBC7B00E89A27 /* LLColor+TEST.m */,
 				C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */,
 				C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */,
+				C75CE90E246CF07B00FE53CA /* LLCodes.h */,
+				C75CE90F246CF07B00FE53CA /* LLCodes.m */,
+				C75CE911246CF0C600FE53CA /* LLAppKit+TEST.h */,
+				C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */,
 			);
 			path = "项目中的分类";
 			sourceTree = "<group>";
@@ -250,23 +235,6 @@
 		C75CE90D246CEB1A00FE53CA /* 库中的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				C75CE8EB246BD2D300FE53CA /* LLAppKitHeader.h */,
-				C794F37C246B824000E89A27 /* LLAppKit.h */,
-				C794F37D246B824000E89A27 /* LLAppKit.m */,
-				C75CE8F6246BD68300FE53CA /* LLAppKit+Config.h */,
-				C75CE8F7246BD68300FE53CA /* LLAppKit+Config.m */,
-				C794F37F246B82D800E89A27 /* LLSettings.h */,
-				C794F380246B82D800E89A27 /* LLSettings.m */,
-				C794F38A246BBD9700E89A27 /* LLAPIs.h */,
-				C794F38B246BBD9700E89A27 /* LLAPIs.m */,
-				C794F396246BCB9500E89A27 /* LLAppInfo.h */,
-				C794F397246BCB9500E89A27 /* LLAppInfo.m */,
-				C75CE8FF246BE20200FE53CA /* LLUserInfo.h */,
-				C75CE900246BE20200FE53CA /* LLUserInfo.m */,
-				C75CE902246BE2A800FE53CA /* LLUserDefaultKeys.h */,
-				C75CE903246BE2A800FE53CA /* LLUserDefaultKeys.m */,
-				C75CE8FC246BDFF900FE53CA /* LLNotificationNames.h */,
-				C75CE8FD246BDFF900FE53CA /* LLNotificationNames.m */,
 			);
 			path = "库中的文件";
 			sourceTree = "<group>";
@@ -445,17 +413,11 @@
 				C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
-				C75CE8FE246BDFF900FE53CA /* LLNotificationNames.m in Sources */,
 				C75CE8FB246BDF0900FE53CA /* LLAPIs+TEST.m in Sources */,
-				C794F37E246B824000E89A27 /* LLAppKit.m in Sources */,
-				C75CE904246BE2A800FE53CA /* LLUserDefaultKeys.m in Sources */,
-				C794F398246BCB9500E89A27 /* LLAppInfo.m in Sources */,
-				C75CE901246BE20200FE53CA /* LLUserInfo.m in Sources */,
-				C794F381246B82D800E89A27 /* LLSettings.m in Sources */,
+				C75CE913246CF0C600FE53CA /* LLAppKit+TEST.m in Sources */,
+				C75CE910246CF07B00FE53CA /* LLCodes.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				C794F389246BBC7B00E89A27 /* LLColor+TEST.m in Sources */,
-				C75CE8F8246BD68300FE53CA /* LLAppKit+Config.m in Sources */,
-				C794F38C246BBD9700E89A27 /* LLAPIs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

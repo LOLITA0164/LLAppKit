@@ -38,6 +38,9 @@
     NSLog(@"用户默认名为：%@",defaultName);
     NSLog(@"用户真实名为：%@",LLAppKit.share.user.name);
 
+    // 自定义入口
+    NSString* homeCode = LLAppKit.share.codes.home;
+    NSLog(@"首页code为：%@", homeCode);
 }
 
 - (void)didReceiveMemoryWarning
