@@ -41,6 +41,16 @@
     // 自定义入口
     NSString* homeCode = LLAppKit.share.codes.home;
     NSLog(@"首页code为：%@", homeCode);
+    
+    
+    NSInteger count = 0;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSLog(@"count = %ld", (long)count);
+    });
+      
+    for (int i = 0; i < 10; i++) {
+        count++;
+    }
 }
 
 - (void)didReceiveMemoryWarning
