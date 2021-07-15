@@ -23,6 +23,7 @@
     
     // 自定义颜色
     self.view.backgroundColor = LLAppKit.share.settings.colors.theme;
+    NSLog(@"背景颜色为：%@", self.view.backgroundColor);
     
     // 库类提供的数据
     NSString* appName = LLAppKit.share.app.name;
@@ -42,6 +43,12 @@
     NSString* homeCode = LLAppKit.share.codes.home;
     NSLog(@"首页code为：%@", homeCode);
     
+    // 字体大小
+    UIFont* font = LLAppKit.share.settings.fonts.normal;
+    NSLog(@"默认字体为：%@", font);
+    NSLog(@"常规的字体为：%@", font.regular);
+    NSLog(@"中黑的字体为：%@", font.medium);
+    NSLog(@"加粗的字体为：%@", font.bold);
     
     NSInteger count = 0;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{

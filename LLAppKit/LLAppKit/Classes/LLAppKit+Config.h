@@ -25,8 +25,8 @@
 @interface LLAppKit (Config)
 /// 用户信息：这里提供了一个绑定存储类型的实例，实际开发过程中，可以采用类似的思路
 @property (strong, nonatomic) LLUserInfo* user;
-/// colors:颜色
--(LLSettings*)settings;
+/// colors:颜色, fontSize:字号。考虑到颜色和字号经常使用，为了避免出现大量变量，因此配置为存储属性
+@property (strong, nonatomic) LLSettings* settings;
 /// 应用信息
 -(LLAppInfo*)app;
 /// 数据接口
@@ -42,7 +42,11 @@
 #pragma mark - Settings 层级入口
 @interface LLSettings (Config)
 /// hex:十六进制  rgb rand:随即色
--(LLColor*)colors;
+@property (strong, nonatomic) LLColor* colors;
+/// 字体
+@property (strong, nonatomic) LLFont* fonts;
+/// 字号
+@property (strong, nonatomic) LLFontSize* sizes;
 @end
 
 

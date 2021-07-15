@@ -22,12 +22,13 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C75CE8FB246BDF0900FE53CA /* LLAPIs+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */; };
-		C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */; };
-		C75CE910246CF07B00FE53CA /* LLCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE90F246CF07B00FE53CA /* LLCodes.m */; };
-		C75CE913246CF0C600FE53CA /* LLAppKit+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */; };
-		C794F389246BBC7B00E89A27 /* LLColor+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C794F388246BBC7B00E89A27 /* LLColor+TEST.m */; };
-		DF34D694A1A1B5917B52ACC5 /* Pods_LLAppKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1C9CA48AF7B9801EAFDBD /* Pods_LLAppKit_Tests.framework */; };
+		8A7312B95A2BBB8B395E1965 /* Pods_LLAppKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5FF30243123B7A415E2E5B /* Pods_LLAppKit_Tests.framework */; };
+		C7A56C2F26A0202500676F40 /* LLCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2326A0202400676F40 /* LLCodes.m */; };
+		C7A56C3026A0202500676F40 /* LLAppKit+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2426A0202500676F40 /* LLAppKit+TEST.m */; };
+		C7A56C3126A0202500676F40 /* LLUserInfo+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2826A0202500676F40 /* LLUserInfo+TEST.m */; };
+		C7A56C3226A0202500676F40 /* LLColor+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2A26A0202500676F40 /* LLColor+TEST.m */; };
+		C7A56C3326A0202500676F40 /* LLAPIs+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2B26A0202500676F40 /* LLAPIs+TEST.m */; };
+		C7A56C3426A0202500676F40 /* LLFont+TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A56C2D26A0202500676F40 /* LLFont+TEST.m */; };
 		FC19AE3C175D83776D026EAE /* Pods_LLAppKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC0310549272D73404634B6 /* Pods_LLAppKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F91A372362455A446EF3A5 /* Pods-LLAppKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Tests/Pods-LLAppKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A71507B953A0F5647C4CF51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3DDFD9DD7BE1C857E92B28A3 /* LLAppKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAppKit.podspec; path = ../LLAppKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		55C1C9CA48AF7B9801EAFDBD /* Pods_LLAppKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAppKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC0310549272D73404634B6 /* Pods_LLAppKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAppKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LLAppKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAppKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,20 +67,24 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A5FF30243123B7A415E2E5B /* Pods_LLAppKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAppKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFACDA1AB5357F6EAF62221 /* Pods-LLAppKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Example/Pods-LLAppKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5C875075AAEFC7F6B1EABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C75CE8F2246BD51100FE53CA /* TESTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTHeader.h; sourceTree = "<group>"; };
-		C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLAPIs+TEST.h"; sourceTree = "<group>"; };
-		C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLAPIs+TEST.m"; sourceTree = "<group>"; };
-		C75CE908246CD21800FE53CA /* LLUserInfo+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLUserInfo+TEST.h"; sourceTree = "<group>"; };
-		C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLUserInfo+TEST.m"; sourceTree = "<group>"; };
-		C75CE90E246CF07B00FE53CA /* LLCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCodes.h; sourceTree = "<group>"; };
-		C75CE90F246CF07B00FE53CA /* LLCodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCodes.m; sourceTree = "<group>"; };
-		C75CE911246CF0C600FE53CA /* LLAppKit+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLAppKit+TEST.h"; sourceTree = "<group>"; };
-		C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLAppKit+TEST.m"; sourceTree = "<group>"; };
-		C794F387246BBC7B00E89A27 /* LLColor+TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLColor+TEST.h"; sourceTree = "<group>"; };
-		C794F388246BBC7B00E89A27 /* LLColor+TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLColor+TEST.m"; sourceTree = "<group>"; };
-		D9D7F57D5EE167779682B470 /* Pods-LLAppKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Tests/Pods-LLAppKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A210B637F666FD835144657E /* Pods-LLAppKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Tests/Pods-LLAppKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC817938479C3963D57B25A6 /* Pods-LLAppKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Tests/Pods-LLAppKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A56C2226A0202400676F40 /* LLCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCodes.h; sourceTree = "<group>"; };
+		C7A56C2326A0202400676F40 /* LLCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCodes.m; sourceTree = "<group>"; };
+		C7A56C2426A0202500676F40 /* LLAppKit+TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLAppKit+TEST.m"; sourceTree = "<group>"; };
+		C7A56C2526A0202500676F40 /* LLAppKit+TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLAppKit+TEST.h"; sourceTree = "<group>"; };
+		C7A56C2626A0202500676F40 /* LLFont+TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLFont+TEST.h"; sourceTree = "<group>"; };
+		C7A56C2726A0202500676F40 /* LLAPIs+TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLAPIs+TEST.h"; sourceTree = "<group>"; };
+		C7A56C2826A0202500676F40 /* LLUserInfo+TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLUserInfo+TEST.m"; sourceTree = "<group>"; };
+		C7A56C2926A0202500676F40 /* LLUserInfo+TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLUserInfo+TEST.h"; sourceTree = "<group>"; };
+		C7A56C2A26A0202500676F40 /* LLColor+TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLColor+TEST.m"; sourceTree = "<group>"; };
+		C7A56C2B26A0202500676F40 /* LLAPIs+TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLAPIs+TEST.m"; sourceTree = "<group>"; };
+		C7A56C2C26A0202500676F40 /* TESTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTHeader.h; sourceTree = "<group>"; };
+		C7A56C2D26A0202500676F40 /* LLFont+TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLFont+TEST.m"; sourceTree = "<group>"; };
+		C7A56C2E26A0202500676F40 /* LLColor+TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLColor+TEST.h"; sourceTree = "<group>"; };
 		EC61778212BA91995C63D23B /* Pods-LLAppKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAppKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLAppKit_Example/Pods-LLAppKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +107,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DF34D694A1A1B5917B52ACC5 /* Pods_LLAppKit_Tests.framework in Frameworks */,
+				8A7312B95A2BBB8B395E1965 /* Pods_LLAppKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +119,8 @@
 			children = (
 				EC61778212BA91995C63D23B /* Pods-LLAppKit_Example.debug.xcconfig */,
 				8AFACDA1AB5357F6EAF62221 /* Pods-LLAppKit_Example.release.xcconfig */,
-				D9D7F57D5EE167779682B470 /* Pods-LLAppKit_Tests.debug.xcconfig */,
-				04F91A372362455A446EF3A5 /* Pods-LLAppKit_Tests.release.xcconfig */,
+				AC817938479C3963D57B25A6 /* Pods-LLAppKit_Tests.debug.xcconfig */,
+				A210B637F666FD835144657E /* Pods-LLAppKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				5BC0310549272D73404634B6 /* Pods_LLAppKit_Example.framework */,
-				55C1C9CA48AF7B9801EAFDBD /* Pods_LLAppKit_Tests.framework */,
+				8A5FF30243123B7A415E2E5B /* Pods_LLAppKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,17 +220,19 @@
 		C75CE90C246CEB1500FE53CA /* 项目中的分类 */ = {
 			isa = PBXGroup;
 			children = (
-				C75CE8F2246BD51100FE53CA /* TESTHeader.h */,
-				C75CE908246CD21800FE53CA /* LLUserInfo+TEST.h */,
-				C75CE909246CD21800FE53CA /* LLUserInfo+TEST.m */,
-				C794F387246BBC7B00E89A27 /* LLColor+TEST.h */,
-				C794F388246BBC7B00E89A27 /* LLColor+TEST.m */,
-				C75CE8F9246BDF0900FE53CA /* LLAPIs+TEST.h */,
-				C75CE8FA246BDF0900FE53CA /* LLAPIs+TEST.m */,
-				C75CE90E246CF07B00FE53CA /* LLCodes.h */,
-				C75CE90F246CF07B00FE53CA /* LLCodes.m */,
-				C75CE911246CF0C600FE53CA /* LLAppKit+TEST.h */,
-				C75CE912246CF0C600FE53CA /* LLAppKit+TEST.m */,
+				C7A56C2726A0202500676F40 /* LLAPIs+TEST.h */,
+				C7A56C2B26A0202500676F40 /* LLAPIs+TEST.m */,
+				C7A56C2526A0202500676F40 /* LLAppKit+TEST.h */,
+				C7A56C2426A0202500676F40 /* LLAppKit+TEST.m */,
+				C7A56C2226A0202400676F40 /* LLCodes.h */,
+				C7A56C2326A0202400676F40 /* LLCodes.m */,
+				C7A56C2E26A0202500676F40 /* LLColor+TEST.h */,
+				C7A56C2A26A0202500676F40 /* LLColor+TEST.m */,
+				C7A56C2626A0202500676F40 /* LLFont+TEST.h */,
+				C7A56C2D26A0202500676F40 /* LLFont+TEST.m */,
+				C7A56C2926A0202500676F40 /* LLUserInfo+TEST.h */,
+				C7A56C2826A0202500676F40 /* LLUserInfo+TEST.m */,
+				C7A56C2C26A0202500676F40 /* TESTHeader.h */,
 			);
 			path = "项目中的分类";
 			sourceTree = "<group>";
@@ -250,7 +255,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7DF258E20DDF7FE1F95BCEB7 /* [CP] Embed Pods Frameworks */,
+				5E7CA3BB20A9E618A21D60AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LLAppKit_Tests" */;
 			buildPhases = (
-				C33147ACDC551F157C72A710 /* [CP] Check Pods Manifest.lock */,
+				4D90045669A5D4F71141A36A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -291,7 +296,7 @@
 				ORGANIZATIONNAME = LOLITA0164;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = DY8NXRF8KD;
+						DevelopmentTeam = 94CER85W8E;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -341,7 +346,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7DF258E20DDF7FE1F95BCEB7 /* [CP] Embed Pods Frameworks */ = {
+		4D90045669A5D4F71141A36A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLAppKit_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E7CA3BB20A9E618A21D60AC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,28 +408,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C33147ACDC551F157C72A710 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LLAppKit_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -410,14 +415,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75CE90A246CD21800FE53CA /* LLUserInfo+TEST.m in Sources */,
+				C7A56C3126A0202500676F40 /* LLUserInfo+TEST.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
-				C75CE8FB246BDF0900FE53CA /* LLAPIs+TEST.m in Sources */,
-				C75CE913246CF0C600FE53CA /* LLAppKit+TEST.m in Sources */,
-				C75CE910246CF07B00FE53CA /* LLCodes.m in Sources */,
+				C7A56C3426A0202500676F40 /* LLFont+TEST.m in Sources */,
+				C7A56C3226A0202500676F40 /* LLColor+TEST.m in Sources */,
+				C7A56C3326A0202500676F40 /* LLAPIs+TEST.m in Sources */,
+				C7A56C3026A0202500676F40 /* LLAppKit+TEST.m in Sources */,
+				C7A56C2F26A0202500676F40 /* LLCodes.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C794F389246BBC7B00E89A27 /* LLColor+TEST.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +551,7 @@
 			baseConfigurationReference = EC61778212BA91995C63D23B /* Pods-LLAppKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				DEVELOPMENT_TEAM = 94CER85W8E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAppKit/LLAppKit-Prefix.pch";
 				INFOPLIST_FILE = "LLAppKit/LLAppKit-Info.plist";
@@ -563,7 +569,7 @@
 			baseConfigurationReference = 8AFACDA1AB5357F6EAF62221 /* Pods-LLAppKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				DEVELOPMENT_TEAM = 94CER85W8E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAppKit/LLAppKit-Prefix.pch";
 				INFOPLIST_FILE = "LLAppKit/LLAppKit-Info.plist";
@@ -578,7 +584,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9D7F57D5EE167779682B470 /* Pods-LLAppKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = AC817938479C3963D57B25A6 /* Pods-LLAppKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -603,7 +609,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04F91A372362455A446EF3A5 /* Pods-LLAppKit_Tests.release.xcconfig */;
+			baseConfigurationReference = A210B637F666FD835144657E /* Pods-LLAppKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

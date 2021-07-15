@@ -1,7 +1,7 @@
 {
   "name": "LLAppKit",
-  "version": "0.1.0",
-  "summary": "A short description of LLAppKit.",
+  "version": "0.1.1",
+  "summary": "应用统一入口",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LOLITA0164/LLAppKit",
   "license": {
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/LOLITA0164/LLAppKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LLAppKit/Classes/**/*"
+  "source_files": "LLAppKit/Classes/**/*",
+  "frameworks": "UIKit"
 }

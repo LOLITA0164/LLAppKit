@@ -1,5 +1,5 @@
 PODS:
-  - LLAppKit (0.1.0)
+  - LLAppKit (0.1.1)
 
 DEPENDENCIES:
   - LLAppKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLAppKit: 9c97b5d95423c41558cd699cdb7436da4eece241
+  LLAppKit: 510ad6ce428abd7ec8214afa09cd8a9ab89f18f9
 
 PODFILE CHECKSUM: 5a2f7d73ed2a8a83ba4a25c2053560d2775f1c9c
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.10.1
